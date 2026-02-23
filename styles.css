@@ -73,26 +73,34 @@ body {
 }
 
 .hero-text {
-    flex: 1;
+    flex: 1 1 55%;
 }
 
 .hero-image {
-    flex: 1;
+    flex: 00 40%;
     display: flex;
     justify-content: flex-end;
 }
 
 .hero-image img {
     width: 100%;
+    max-width: 420px;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    display: block;
 }
 
 /* 小屏幕自动变成上下 */
 @media (max-width: 900px) {
     .hero-inner {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-image img {
+        max-width: 320px;
     }
 }
 
