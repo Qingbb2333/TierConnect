@@ -66,6 +66,33 @@ body {
     max-width: 640px;
     color: #4b5563;
 }
+.hero-inner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+/* 小屏幕自动变成上下 */
+@media (max-width: 900px) {
+    .hero-inner {
+        flex-direction: column;
+    }
+}
 
 /* Sections */
 .section {
