@@ -73,6 +73,7 @@ body {
 }
 
 .hero-text {
+    overflow-wrap: anywhere;
     flex: 1 1 50%;
 }
 
