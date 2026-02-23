@@ -119,3 +119,45 @@ body {
 .footer a:hover {
     color: #ffffff;
 }
+
+.language-switch {
+    position: relative;
+    display: inline-block;
+    margin-left: 28px;
+    font-size: 15px;
+    color: #374151;
+    cursor: pointer;
+}
+
+.language-switch span {
+    user-select: none;
+}
+
+.language-dropdown {
+    display: none;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    min-width: 140px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    z-index: 100;
+}
+
+.language-dropdown a {
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+}
+
+.language-dropdown a:hover {
+    background: #f9fafb;
+}
+
+.language-switch:hover .language-dropdown {
+    display: block;
+}
