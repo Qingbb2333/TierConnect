@@ -56,25 +56,23 @@ body {
 
 .hero h1 {
     font-size: 42px;
-    max-width: 720px;
     margin-bottom: 24px;
     font-weight: 600;
 }
 
 .hero p {
     font-size: 18px;
-    max-width: 640px;
     color: #4b5563;
 }
 .hero-inner {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 48px;
 }
 
 .hero-text {
     overflow-wrap: anywhere;
-    flex: 1 1 50%;
+    flex: 1;
 }
 
 .hero-image {
